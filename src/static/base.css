@@ -1,0 +1,46 @@
+body {
+  background-image: url("mohammad-metri-421904-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.navbar-custom {
+  background-image: linear-gradient(to right, #0d602a, #191414);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-custom a {
+  color: #edeae0;
+}
+
+.navbar-brand {
+  font-size: 42px;
+  font-family: "Snell Roundhand", cursive, sans-serif	;
+  padding-right: 20px;
+}
+
+.nav-item {
+  font-size: 21px;
+  font-family: "Optima", sans-serif;
+  padding-right: 10px;
+}
+
+.btn {
+  color: #edeae0;
+  background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  border: None;
+}
+
+.card {
+  width: 300px;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: rgba(255,255,255, 0.666);
+}
+
+.card-img-top {
+
+}

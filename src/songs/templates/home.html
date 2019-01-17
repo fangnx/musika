@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for i in object_list %}
+
+<div class="card">
+  {% load static %}
+  <img class="card-img-top" src="{% static 'spencer-imbrock-487035-unsplash.jpg' %}">
+  <div class="card-body">
+    <a href='{% url "detail" i.id %}'> {{ i.title }} </a>
+    {{ i.artist }} <br />
+    {{ i.album }} <br />
+    {{ i.genre }} <br />
+  </div>
+</div>
+
+{% endfor %}
+
+</body>
+
+{% endblock %}
